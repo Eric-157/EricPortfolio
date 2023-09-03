@@ -24,6 +24,16 @@ body {
     height: auto;
 }
 
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 1rem;
+    color: white;
+    height: auto;
+}
+
 #footer {
     display: flex;
     flex-direction: row;
