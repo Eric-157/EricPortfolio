@@ -1,0 +1,111 @@
+#content div {
+    width: 80vw;
+}
+
+/* The About Me section in Index. Includes the container, the image, and the text */
+#aboutme {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    color: #810081;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 4px solid #810081;
+}
+
+#aboutme img {
+    width: 14rem;
+    height: 21rem;
+    border-radius: 5px;
+    border: 2px solid #810081;
+}
+
+#aboutme p {
+    width: 65vw;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* The Certs section in Index. includes the main container, the item containers and the images in said items.*/
+#certs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    color: #810081;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 4px solid #810081;
+}
+
+#certs .para {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid #810081;
+    padding: 5px;
+}
+
+#certs .image {
+    width: 100%;
+    height: 100%;
+}
+
+#certs img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+/* The Education section in Index. Includes the main container and the item containers.*/
+#education {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    color: #810081;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 4px solid #810081;
+}
+
+#education .container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid #810081;
+    border-radius: 20px;
+    margin: 7px;
+    padding: 7px;
+}
+
+/* The Work Experience section in Index.  */
+#work {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2;
+    color: #810081;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 4px solid #810081;
+}
